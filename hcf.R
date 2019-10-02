@@ -1,0 +1,20 @@
+  hcf<-function(x,y){
+    if(x>y){
+      while(x>y){
+        x=y%%x
+      }
+    print(y)
+      }else{
+        y=y%%x
+      while(y<x){
+        y=y%%x
+      }
+    print(x)
+      }
+    
+  }
+  a=readline()
+  a=as.integer(a)
+  b=readline()
+  b=as.integer(b)
+  hcf(a,b)

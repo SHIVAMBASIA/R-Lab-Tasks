@@ -1,0 +1,1 @@
+a=readline(prompt="enter range")

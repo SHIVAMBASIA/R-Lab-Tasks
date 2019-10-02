@@ -1,0 +1,9 @@
+si<-function(p,r,t){
+si=as.integer()
+si=(p*r*t)/100
+print(si)
+}
+p=as.integer(readline())
+r=as.integer(readline())
+t=as.integer(readline())
+si(p,r,t)

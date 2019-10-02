@@ -1,0 +1,6 @@
+a=readline("enter first number:")
+b=readline("enter second number")
+a=as.integer(a)
+b=as.integer(b)
+rm(a)
+rm(list=ls())

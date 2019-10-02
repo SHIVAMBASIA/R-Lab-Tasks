@@ -1,0 +1,7 @@
+x=as.integer(readline("Enter the number"))
+a=as.double(readline("Enter double number"))
+y=abs(a)
+z=sqrt(a)
+b=ceiling(a)
+c=round(a)
+cat(y," ",z," ",b," ",c)
